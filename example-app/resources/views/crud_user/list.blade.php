@@ -9,8 +9,7 @@
                     <tr>
                         <th>STT</th>
                         <th>Username</th>
-                        <th>Like</th>
-                        <th>Facebook</th>
+                        
                         <th>Email</th>
                         <th>Thao Tác</th>
                     </tr>
