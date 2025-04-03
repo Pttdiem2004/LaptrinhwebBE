@@ -20,21 +20,7 @@
                                 @enderror
                             </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Like</label>
-                                <input type="text" class="form-control" name="like" value="{{ $user->like }}" required>
-                                @error('like')
-                                    <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="mb-3">
-                                <label class="form-label">Facebook</label>
-                                <input type="text" class="form-control" name="facebook" value="{{ $user->ufacebookername }}" required>
-                                @error('facebook')
-                                    <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
+                        
 
                             <div class="mb-3">
                                 <label class="form-label">Email</label>
