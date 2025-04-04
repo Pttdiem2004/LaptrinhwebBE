@@ -19,6 +19,22 @@
                                     <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
+                              
+                            <div class="mb-3">
+                                <label class="form-label">Age</label>
+                                <input type="text" class="form-control" name="age" value="{{ $user->age }}" required>
+                                @error('age')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                              
+                            <div class="mb-3">
+                                <label class="form-label">Like</label>
+                                <input type="text" class="form-control" name="like" value="{{ $user->like }}" required>
+                                @error('like')
+                                    <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
 
                         
 

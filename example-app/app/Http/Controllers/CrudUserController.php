@@ -116,6 +116,8 @@ class CrudUserController extends Controller
 
        $user = User::find($input['id']);
        $user->username = $request->username;
+       $user->age = $request->age;
+       $user->like = $request->like;
        
        $user->email = $request->email;
        
